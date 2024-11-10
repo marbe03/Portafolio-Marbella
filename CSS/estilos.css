@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: outfit, sans serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.contenedor {
+    width: 1200px;
+    background-color: #f3f1f7;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3px;
+    border-bottom: 30px solid;
+    border-color: #004AAD;
+    border-width: 30px;
+
+
+}
+
+/* aqui comienza mi header */
+
+header {
+    background-color: #FC4340;
+    border-radius: 0 0 15px 15px;
+    position: sticky;
+    top: 0;
+    z-index:1;
+}
+
+.menu {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bmenu {
+    padding-right: 75px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-family: outfit, sans serif;
+}
+
+a:hover {
+    opacity: 70%;
+    transition: 0.5s;
+}
+
+h1 {
+    text-align: center;
+    font-family: bowlby one;
+    font-size: 75px;
+    margin-top: 75px;
+    color: #004AAD;
+}
+
+h2 {
+    text-align: center;
+    font-family: bowlby one;
+    font-size: 75px;
+    margin-top: -40px;
+    color: #FC4340;
+}
+
+h4 {
+    text-align: center;
+    color: gray;
+    margin-top: 10px;
+}
+
+/* Aquí empieza el main */
+
+.galeria {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.imagen {
+    margin: -3px;
+
+}
+
+h3 {
+    font-family: syne;
+    font-size: 35px;
+    color: #004AAD;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+h3.socialmedia {
+    color: #FC4340
+}
+
+/* Aquí empieza pagina de ilustracion grande */
+
+img.ilustraciongrande1 {
+    display: block;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+a.volver {
+    display: block;
+    color: #004AAD;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+/* Aquí empieza sobre mi */
+
+article.sobre {
+    width: 600px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 125px;
+}
+
+img.marbellafoto {
+    margin-bottom: 30px;
+}
+
+p {
+    color: gray;
+    padding-bottom: 95px;
+
+}
+
+/* footer */
+p.derechos {
+    display: block;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 1px;
+    padding-top: 10px;
+}
+
+footer {
+    background-color: #004AAD;
+}
+/* redes */
+
+div.redes{
+    width: 50px;
+    height: 155px;
+    background-color: gray;
+    position: fixed;
+    top: 250px;
+    left:0px;
+    border-radius: 13px;
+    
+}
+li{
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+}
